@@ -18,8 +18,9 @@ git clone https://github.com/kiwenlau/hadoop-cluster-docker
 ##### 2. build docker image
 
 ```
-run the file : ./build-image.sh
+./build-image.sh
 ```
+make sure you have build the hadoop and copy under the path of DockerFile
 
 ##### 3. create hadoop network
 
