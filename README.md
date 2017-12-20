@@ -9,16 +9,16 @@
 
 ### 3 Nodes Hadoop Cluster
 
-##### 1. pull docker image
-
-```
-sudo docker pull kiwenlau/hadoop:1.0
-```
-
-##### 2. clone github repository
+##### 1. clone github repository
 
 ```
 git clone https://github.com/kiwenlau/hadoop-cluster-docker
+```
+
+##### 2. build docker image
+
+```
+run the file : ./build-image.sh
 ```
 
 ##### 3. create hadoop network
